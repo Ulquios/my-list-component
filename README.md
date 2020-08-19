@@ -21,27 +21,25 @@ Check out the Stencil.js docs [here](https://stenciljs.com/docs/overview) to lea
 
 ## How to use this project template to make your own components
 
-Clone the repository:
+This project is available on github: https://github.com/Ulquios/ulq-components
 
+Clone the repository:
 ```bash
 git clone https://github.com/Ulquios/ulq-components.git
 ```
 
 To run the project:
-
 ```bash
 npm install
 npm start
 ```
 
 To build the component for production, run:
-
 ```bash
 npm run build
 ```
 
 To run the unit tests for the components, run:
-
 ```bash
 npm test
 ```
