@@ -1,7 +1,7 @@
 import { Config } from '@stencil/core';
 
 export const config: Config = {
-  namespace: 'my-list-component',
+  namespace: 'ulq-components',
   taskQueue: 'async',
   outputTargets: [
     {

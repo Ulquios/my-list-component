@@ -1,4 +1,4 @@
-# my-list-component
+# ulq-list
 
 
 
@@ -22,8 +22,8 @@
 ### Graph
 ```mermaid
 graph TD;
-  my-component --> my-list-component
-  style my-list-component fill:#f9f,stroke:#333,stroke-width:4px
+  my-component --> ulq-list
+  style ulq-list fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 ----------------------------------------------

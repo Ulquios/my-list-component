@@ -9,12 +9,12 @@
 
 ### Depends on
 
-- [my-list-component](../my-list-component)
+- [ulq-list](../ulq-list)
 
 ### Graph
 ```mermaid
 graph TD;
-  my-component --> my-list-component
+  my-component --> ulq-list
   style my-component fill:#f9f,stroke:#333,stroke-width:4px
 ```
 

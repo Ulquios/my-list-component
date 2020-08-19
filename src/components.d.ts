@@ -8,7 +8,7 @@ import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface MyComponent {
     }
-    interface MyListComponent {
+    interface UlqList {
         "listData": Array<string>;
         "listName": string;
     }
@@ -20,27 +20,27 @@ declare global {
         prototype: HTMLMyComponentElement;
         new (): HTMLMyComponentElement;
     };
-    interface HTMLMyListComponentElement extends Components.MyListComponent, HTMLStencilElement {
+    interface HTMLUlqListElement extends Components.UlqList, HTMLStencilElement {
     }
-    var HTMLMyListComponentElement: {
-        prototype: HTMLMyListComponentElement;
-        new (): HTMLMyListComponentElement;
+    var HTMLUlqListElement: {
+        prototype: HTMLUlqListElement;
+        new (): HTMLUlqListElement;
     };
     interface HTMLElementTagNameMap {
         "my-component": HTMLMyComponentElement;
-        "my-list-component": HTMLMyListComponentElement;
+        "ulq-list": HTMLUlqListElement;
     }
 }
 declare namespace LocalJSX {
     interface MyComponent {
     }
-    interface MyListComponent {
+    interface UlqList {
         "listData"?: Array<string>;
         "listName"?: string;
     }
     interface IntrinsicElements {
         "my-component": MyComponent;
-        "my-list-component": MyListComponent;
+        "ulq-list": UlqList;
     }
 }
 export { LocalJSX as JSX };
@@ -48,7 +48,7 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
-            "my-list-component": LocalJSX.MyListComponent & JSXBase.HTMLAttributes<HTMLMyListComponentElement>;
+            "ulq-list": LocalJSX.UlqList & JSXBase.HTMLAttributes<HTMLUlqListElement>;
         }
     }
 }

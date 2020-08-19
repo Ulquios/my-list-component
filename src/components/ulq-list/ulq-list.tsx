@@ -1,12 +1,12 @@
 import { Component, h, Prop } from '@stencil/core';
 
 @Component({
-  tag: 'my-list-component',
-  styleUrl: 'my-list-component.css',
+  tag: 'ulq-list',
+  styleUrl: 'ulq-list.css',
   shadow: true,
 })
 
-export class MyListComponent {
+export class UlqList {
 
   @Prop() listName: string;
   @Prop() listData: Array<string>;

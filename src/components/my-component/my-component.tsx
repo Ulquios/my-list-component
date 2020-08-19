@@ -16,7 +16,7 @@ export class MyComponent {
   render() {
     return (
       <div>
-        <my-list-component listName={'Fruits'} listData={this.fruitsList}/>
+        <ulq-list listName={'Fruits'} listData={this.fruitsList}/>
       </div>
     )
   }

@@ -1,5 +1,5 @@
 {
-  "name": "ulq-list-component",
+  "name": "ulq-components",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
   "types": "dist/custom-elements/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/my-list-component/my-list-component.js",
+  "unpkg": "dist/ulq-components/ulq-components.js",
   "files": [
     "dist/",
     "loader/"
