@@ -12,12 +12,14 @@ Stencil components are just Web Components, so they work in any major framework 
 
 This package is available on npm: https://www.npmjs.com/package/ulq-components
 
-To add it to your project as a dependency:
+To add ulq-components to your project:
 ```bash
 npm install ulq-components --save
 ```
 
-## How to get the project and use it to make your own components
+Check out the Stencil.js docs [here](https://stenciljs.com/docs/overview) to learn more about framework integration.
+
+## How to use this project template to make your own components
 
 Clone the repository:
 
